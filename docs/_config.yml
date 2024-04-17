@@ -3,7 +3,7 @@ email: dramirezch@unal.edu.co
 description: >- 
   Proyecto para la materia Automatización de procesos de manufactura.
   Universidad nacional de colombia, semestre 2024-2.
-baseurl: "/docs" 
+baseurl: "/apm" 
 url: "https://dramirezch-un.github.io/apm/" 
 
 # Build settings
