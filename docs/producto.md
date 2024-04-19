@@ -5,3 +5,5 @@ permalink: /producto
 ---
 
 🏗️ En esta página se encontrará el contenido de producto. 🏗️
+
+- [Planificación]({{ site.baseurl }}{% link planificacion.md %})
