@@ -1,1 +1,0 @@
-# Evaluación económica de proyectos
