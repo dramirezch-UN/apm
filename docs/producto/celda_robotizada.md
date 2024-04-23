@@ -1,3 +1,9 @@
+---
+layout: page
+title: Celda robotizada
+permalink: /producto/celda-robotizada
+---
+
 # Celda robotizada
 
 Para el diseño de una celda robotizada en el proceso de producción de baldosas cerámicas es importante conocer cada uno del proceso, este fue identificado por completo en el VSM. 
