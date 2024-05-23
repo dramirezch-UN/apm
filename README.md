@@ -2,4 +2,5 @@
 
 - Daniel Esteban Ramirez Chiquillo dramirezch@unal.edu.co
 - Hector Daniel Vargas hdvargasbe@unal.edu.co
-- Nicolas Gil Rojas
+- Jaime Andres Sanchez Peralta jaasanchezpe@unal.edu.co
+- Nicolas Gil Rojas nigilro@unal.edu.co
