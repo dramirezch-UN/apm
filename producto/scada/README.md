@@ -1,9 +1,5 @@
 # SCADA
 
-### Plan de Implementación del Sistema SCADA en la Nube
-
-Este plan describe cómo se implementaría un sistema SCADA alojado en la nube utilizando Ignition Cloud Edition en Microsoft Azure.
-
 #### Arquitectura del Sistema
 
 El sistema SCADA en la nube supervisará las variables obtenidas de la comunicación OPC y MQTT. Para lograr esto, se utilizarían tres PCs (PC1, PC2 y opcionalmente PC3) junto con Ignition Cloud Edition en Azure, aprovechando el plugin disponible en Azure Marketplace, lo que facilita la integración y gestión del sistema SCADA en la nube.
