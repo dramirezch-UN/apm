@@ -5,7 +5,7 @@ permalink: /producto/scada
 nav:false
 ---
 
-# SCADA
+## SCADA
 
 #### Arquitectura del Sistema
 
