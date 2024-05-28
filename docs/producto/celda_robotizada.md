@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Celda robotizada
+title: Celda de Mnufactura Robotizada.
 permalink: /producto/celda-robotizada
 ---
 

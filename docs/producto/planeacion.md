@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Planeación del proyecto
+title: Planeación del proyecto.
 permalink: /producto/planeacion
 ---
 
