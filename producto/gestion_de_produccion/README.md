@@ -26,4 +26,6 @@ Se evidencia que los tiempos de bloqueo son altos previo a la interacción human
 
 Debido a esto, se observa una necesidad de automatizar aun mas la planta y permitir una mayor eficiencia de la misma.
 
+## Planta automatizada
+
 Para realizar la simulación de la planta automatizada se reemplazan las tareas realizadas por trabajadores por bandas de transporte y por las celdas roboticas diseñadas en su componente. Sine mbargo, debido a limitaciones a la hora de manejar el software, no fue posible ejecutar la simulación de igual manera, dado que la programación de los elementos *pick and place* hacia que se bloquearan si no podian soltar el objeto manipulado, en este caso, asumimos que las cajas de empaque siempre se encontraban disponibles y modificar los tiempos de creacion en su fuente implicaba que las baldosas se podian bloquear de igual forma. Se carga el archivo de simulación hasta donde fue posible desarrollarlo.
