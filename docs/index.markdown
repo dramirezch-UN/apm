@@ -4,6 +4,8 @@ layout: page
 
 # Ceramatic
 
+<img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/ceramatic_logo.jpg" />
+
 - Contenido de proceso de aprendizaje:
     - [Reflexiones individuales.]({{ site.baseurl }}{% link proceso/reflexiones_individuales.md %})
     - [Reflexion grupal.]({{ site.baseurl }}{% link proceso/reflexion_grupal.md %})
