@@ -4,7 +4,7 @@ layout: page
 
 # Ceramatic
 
-<img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/ceramatic_logo.jpg" width="500" height="500" />
+<img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/ceramatic_logo.jpg" width="350" height="350" />
 
 - Contenido de proceso de aprendizaje:
     - [Reflexiones individuales.]({{ site.baseurl }}{% link proceso/reflexiones_individuales.md %})
