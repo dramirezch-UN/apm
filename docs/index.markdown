@@ -2,6 +2,8 @@
 layout: page
 ---
 
+# Ceramatic
+
 - Contenido de proceso de aprendizaje:
     - [Reflexiones individuales.]({{ site.baseurl }}{% link proceso/reflexiones_individuales.md %})
     - [Reflexion grupal.]({{ site.baseurl }}{% link proceso/reflexion_grupal.md %})
