@@ -2,10 +2,8 @@
 layout: page
 title: Gestión de Producción y Automatización.
 permalink: /producto/gestion-de-produccion
-nav:false
 ---
 
-# Gestión de producción y automatización
 
 ## Planta sin automatizar
 
