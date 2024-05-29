@@ -8,10 +8,9 @@ permalink: /producto/evaluacion-economica
 La evaluación económica se esta proyectando en este [google docs](https://docs.google.com/spreadsheets/d/19s-gABycYug0Wh6zzXtUE5XU887PQDZF/edit?usp=sharing&ouid=115768235455485428193&rtpof=true&sd=true).
 
 Esta tabla incluye la cotización del proyecto 
-| | | | | | | | |
+
 |-|-|-|-|-|-|-|-|
 |ITEM|TIPOLOGÍA|DESCRIPCIÓN Y ESPECIFICACIONES SOLICITADAS|DESCRIPCIÓN Y ESPECIFICACIONES DEL CONTRATISTA|CANTIDAD|UND|VR UNITARIO  |VR PARCIAL |
-| | | | | | | | |
 |1| |Celda robotizada| |2|UND|$ 189,220,745.00|$ 378,441,490.00|
 |2| |Banda transportadora 1| |10.2|ML|$ 2,623,543.57|$ 26,760,144.43|
 |3| |Banda transportadora 2| |9|ML|$ 2,945,079.29|$ 26,505,713.57|
