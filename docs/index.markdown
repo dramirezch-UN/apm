@@ -6,6 +6,7 @@ layout: page
 
 <img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/ceramatic_logo.jpg" width="350" height="350" />
 
+- [Equipo.]({{ site.baseurl }}{% link equipo.md %})
 - Contenido de proceso de aprendizaje:
     - [Reflexiones individuales.]({{ site.baseurl }}{% link proceso/reflexiones_individuales.md %})
     - [Reflexion grupal.]({{ site.baseurl }}{% link proceso/reflexion_grupal.md %})
