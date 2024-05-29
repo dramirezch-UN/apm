@@ -2,10 +2,7 @@
 layout: page
 title: Reflexiónes individuales
 permalink: /proceso/reflexiones-individuales
-nav:false
 ---
-
-# Reflexiones individuales
 
 ## Proceso de aprendizaje 
 
