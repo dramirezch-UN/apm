@@ -13,7 +13,7 @@ Se aplicaron metodologías vistas en clase y a lo largo del desarrollo del progr
 Se realizó el análisis económico, el montaje de la automatización de la planta “en las partes que se consideraron susceptibles de automatización”. De todo este proceso se puede intuir cómo es el desarrollo complejo y completo de un proyecto industrial real, incluida su parte financiera.
 
 ### Daniel Ramirez
-Aunque se presentaron varios obstáculos para el desarrollo de los temas del curso, considero que se logró obtener una familiaridad suficiente con los módulos tratados para que pueda regresar a ellos y profundizar en un futuro. Se trabajó específicamente en los módulos de industria 4.0, comunicaciones y planeación. También se participó activamente en discusiones del equipo relacionadas con el resto de módulos. Adicionalmente, se hizo una exploración de cómo funcionaría el sistema SCADA que se planteó en la especificación del proyecto.
+Aunque se presentaron varios obstáculos para el desarrollo de los temas del curso, considero que se logró obtener una familiaridad suficiente con los módulos tratados para que pueda regresar a ellos y profundizar en un futuro. Se trabajó específicamente en los módulos de industria 4.0, comunicaciones y planeación; se participó activamente en discusiones del equipo relacionadas con el resto de módulos; se hizo una exploración de cómo funcionaría el sistema SCADA que se planteó en la especificación del proyecto. Adicionalmente, se organizó el contenido del website y realicé las reviews de los Pull Requests de los demás miembros del equipo en el GitHub.
 
 ## Recomendaciones
 
