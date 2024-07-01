@@ -43,6 +43,8 @@ Para realizar la simulación de la planta automatizada se reemplazan las tareas 
 
 En primer lugar, se realiza una aproximación manteniendo los tiempos de generación de la materia prima y la velocidad de las bandas instaladas y nuevas. Así, se obtienen que  ejecuta la simulación con los mismos tiempos de la simulación previa y se obtiene un total de 263392 cajas generadas mientras que los KPI de las máquinas permanecen en gran medida igual. Los resultados de esta simulación se encuentran [aquí](/producto/gestion_de_produccion/Resultados_Auto1.pdf) 
 
+![Planta](/producto/gestion_de_produccion/Planta.png)
+
 Considerando esto, se realiza un ajuste sobre los tiempos de entreda de materia prima y la velocidad de las bandas, reduciendo el primero un 25% e incrementando el segundo un 25%. De esta forma, se obtienen un total de 351059 cajas equivalentes a un aumento del 33.39% de aumento en la producción de baldosas. Al revisar los KPI de esta planta se observa que el _OEE_ de las estaciones con metrica mas baja aumenta en cantidades entre 1 y 2 puntos porcentuales pero tambien se aprecia como la secadora y, especialmente, el horno bajan su porcentaje de tiempo en uso. Para esta planta se encuentra, de la misma forma que para la planta sin automatizar, que es el _takt time_ es de 12.72 s, sin embargo, no es posible alcanzarlo por la simulación de fallas de las máquinas. A continuación se observa el resumen de tiempos de uso de las diferentes estaciones en la nueva simulación, mientras en el [documento](/producto/gestion_de_produccion/Resultados_Auto2.pdf) se encuentran los resultados detallados de la misma.
 
 ![Resultados Auto2](/producto/gestion_de_produccion/Uso_maquinas_auto2.png)
