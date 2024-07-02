@@ -63,4 +63,3 @@ Por último, se observa que los tiempos de espera en las estaciones debido a que
 - https://sacmi.com/SacmiCorporate/media/ceramics/Catalogues/DHD708_DHD908_DHD1208-Intesa-(ITA_ENG).pdf
 - https://sacmi.com/sharedcontent/media/Documents/Ceramics/2022/Catalogo_EVA_20210916-doppia-lingua.pdf
 - https://hybrid-machine-moss.sacmi.com/sharedcontent/media/Documents/Ceramics/catalogue/MAESTRO-EN-ES.pdf
-- 
