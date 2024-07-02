@@ -1,4 +1,4 @@
-![Uso_maquinas_manual](https://github.com/dramirezch-UN/apm/assets/108196565/eb5e5ad3-f677-49db-a560-ac02e5435a2c)---
+---
 layout: page
 title: Gestión de Producción y Automatización.
 permalink: /producto/gestion-de-produccion
