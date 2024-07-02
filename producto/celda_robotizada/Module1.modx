@@ -1,0 +1,108 @@
+MODULE Module1
+        CONST robtarget Target_60:=[[212.814798025,-598.161499767,40.000017583],[0,0.997147266,0.075480666,0],[-1,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20:=[[212.814798025,-598.161499767,-85.003605178],[0,0.997147265,0.075480666,0],[-1,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_330:=[[44.618834081,-604.708520179,40],[0,0.999328564,-0.036639057,0],[-1,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_320:=[[-120.816938369,-573.664256747,40],[0,0.988942723,-0.148297978,0],[-1,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_310:=[[-275.19689211,-506.585415219,40],[0,0.966120354,-0.258091965,0],[-1,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_300:=[[-410.779771628,-406.835608806,40],[0,0.93114846,-0.364640296,0],[-1,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_290:=[[-520.766885199,-279.41670932,40],[0,0.884466834,-0.466603064,0],[-2,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_280:=[[-599.643019683,-130.718032437,40],[0,0.826662525,-0.562698028,0],[-2,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_30:=[[-582.503880775,19.191519476,-120],[0,0.707106781,0.707106781,0],[-2,0,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_70:=[[375.336866518,-554.351539862,40],[0,0.982426268,0.186651086,0],[-1,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_80:=[[524.035543401,-475.475405379,40],[0,0.955350687,0.295474305,0],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_90:=[[651.454442887,-365.488291807,40],[0,0.916261016,0.400581764,0],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_100:=[[751.2042493,-229.905412289,40],[0,0.865648832,0.500651675,0],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_110:=[[818.283090828,-75.525458548,40],[0,0.804150612,0.5944256,0],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_120:=[[849.32735426,89.910313901,40],[0,0.73253973,0.680724279,0],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+!***********************************************************
+    !
+    ! Module:  Module1
+    !
+    ! Description:
+    !   <Insert description here>
+    !
+    ! Author: USER
+    !
+    ! Version: 1.0
+    !
+    !***********************************************************
+    
+    
+    !***********************************************************
+    !
+    ! Procedure main
+    !
+    !   This is the entry point of your program
+    !
+    !***********************************************************
+VAR num i=0; 
+
+PROC main()
+    WHILE(TRUE)
+        HOME();
+        Caja();   ! Llamada a la rutina para colocar la caja
+        
+        i := 0;   ! Inicializamos i antes de entrar al bucle
+        
+        WHILE i < 5 DO
+            HOME();
+            IF GD_RoboEmpaque = 1 THEN
+                Baldosa();   ! Llamada a la rutina para colocar el producto
+                i := i + 1;
+            ENDIF
+        ENDWHILE
+        GD_terminoEmpaca:=1;
+    ENDWHILE
+ENDPROC
+
+    PROC HOME()
+        MoveJ Target_60,v1000,z100,Servo\WObj:=wobj0;
+    ENDPROC
+    PROC Caja()
+        MoveJ Target_20,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_60,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_330,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_320,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_310,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_300,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_290,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_280,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_30,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_280,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_290,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_300,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_310,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_320,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_330,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_60,v1000,z100,Servo\WObj:=wobj0;
+    ENDPROC
+    PROC Baldosa()
+        MoveJ Target_60,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_70,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_80,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_90,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_100,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_110,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_120,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_120,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_110,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_100,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_90,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_80,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_60,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_330,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_320,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_310,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_300,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_290,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_280,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_30,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_280,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_290,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_300,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_310,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_320,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_330,v1000,z100,Servo\WObj:=wobj0;
+        MoveJ Target_60,v1000,z100,Servo\WObj:=wobj0;
+    ENDPROC
+ENDMODULE
