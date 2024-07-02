@@ -10,7 +10,7 @@ permalink: /producto/gestion-de-produccion
 
 Para definir si la planta tenía posibilidad de aplicar en un proceso de automatización se reviso el estado actual de sus procesos de manufactura, para ello se inicio elaborando el VSM del proceso que lleva la planta y se realizo su simulación en el software de Siemens Tecnomatix Plant Simulation de la forma mas aproximada a la realidad. En el VSM se considera que el producto con acabado tipo piedra debe ser enviado a una maquina encargada de dar relieve a la superficie de la baldosa posterior a su esmaltado y previo ingreso al horno, mientras que la baldosa con acabado tipo marmol se dirige a una etapa de pulido superficial, o polichado, luego de su salida del horno. A continuacion una imagen del VSM planteado.
 
-![VSM](/producto/gestion_de_produccion/VSM.png)
+<img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/producto/gestion_de_produccion/VSM.png">
 
 Se consultan las maquinas existentes en la planta y se establecen sus dimensiones físicas asi como las capacidades de producción de las mismas. De esta forma, se obtiene la siguiente tabla:
 
