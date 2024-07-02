@@ -1,4 +1,4 @@
----
+![Uso_maquinas_manual](https://github.com/dramirezch-UN/apm/assets/108196565/eb5e5ad3-f677-49db-a560-ac02e5435a2c)---
 layout: page
 title: Gestión de Producción y Automatización.
 permalink: /producto/gestion-de-produccion
@@ -37,7 +37,7 @@ Ademas, debido a limitaciones con el uso del software de Tecnomatix se encuentra
 
 Acorde a lo anterior, se ejecuta una simulación de los 366 días del año 2024 donde se obtienen los resultados del archivo [Resultados](/producto/gestion_de_produccion/Resultados_Manual.pdf) y cuyo resumen se encuentra en la siguiente gráfica:
 
-![Resultados Manual](/producto/gestion_de_produccion/Uso_maquinas_manual.png)
+<img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/producto/gestion_de_produccion/Uso_maquinas_manual.png">
 
 Se evidencia que los tiempos de bloqueo son altos previo a la interacción humana en la división y transporte de las baldosas, maquinas como la prensa, la secadora y las estaciones de decoración y va reduciendo su porcentaje de bloqueo a medida que avanzan las etapas de intervención humana como en el horno. Adicionalmente, se evidencia como, suponiendo una tasa de calidad del 100%, el _OEE_ de las maquinas es bajo en general, con usos máximos aproximadamente del 12% para las estaciones de esmaltado, con tiempos sin uso mayores al 55% y estaciones bloqueadas en un máximo del 23% del tiempo simulado, sin embargo, la secadora y el horno si cuentan con un uso elevado con _OEE_ de 81.33% y 90.11% respectivamente. Al final del periodo simulado se terminan elaborando un total de 263181 cajas de baldosas con 6 unidades cada una, para un total de 1579086 baldosas equivalentes a 410720.268 m<sup>2</sup>. El _takt time_ de esta planta es de 20.225 s el cual se obtiene simulando la planta cuando esta en total capacidad productiva y sin falla en las maquinas.
 
@@ -49,11 +49,11 @@ Para realizar la simulación de la planta automatizada se reemplazan las tareas 
 
 En primer lugar, se realiza una aproximación manteniendo los tiempos de generación de la materia prima y la velocidad de las bandas instaladas y nuevas. Así, se obtienen que  ejecuta la simulación con los mismos tiempos de la simulación previa y se obtiene un total de 263392 cajas generadas mientras que los KPI de las máquinas permanecen en gran medida igual. Los resultados de esta simulación se encuentran [aquí](/producto/gestion_de_produccion/Resultados_Auto1.pdf) 
 
-![Planta](/producto/gestion_de_produccion/Planta.png)
+<img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/producto/gestion_de_produccion/Planta.png">
 
 Considerando esto, se realiza un ajuste sobre los tiempos de entreda de materia prima y la velocidad de las bandas, reduciendo el primero un 25% e incrementando el segundo un 25%. De esta forma, se obtienen un total de 351059 cajas equivalentes a un aumento del 33.39% de aumento en la producción de baldosas. Al revisar los KPI de esta planta se observa que el _OEE_ de las estaciones con metrica mas baja aumenta en cantidades entre 1 y 2 puntos porcentuales pero tambien se aprecia como la secadora y, especialmente, el horno bajan su porcentaje de tiempo en uso. Para esta planta se encuentra, de la misma forma que para la planta sin automatizar, que es el _takt time_ es de 12.72 s, sin embargo, no es posible alcanzarlo por la simulación de fallas de las máquinas. A continuación se observa el resumen de tiempos de uso de las diferentes estaciones en la nueva simulación, mientras en el [documento](/producto/gestion_de_produccion/Resultados_Auto2.pdf) se encuentran los resultados detallados de la misma.
 
-![Resultados Auto2](/producto/gestion_de_produccion/Uso_maquinas_auto2.png)
+<img src="https://raw.githubusercontent.com/dramirezch-UN/apm/main/producto/gestion_de_produccion/Uso_maquinas_auto2.png">
 
 Por último, se observa que los tiempos de espera en las estaciones debido a que su salida se encuentra bloqueada tambien disminuyen, por lo que un siguiente paso sería mejorar la disponibilidad de las máquinas. 
 
