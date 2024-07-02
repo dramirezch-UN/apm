@@ -4,7 +4,7 @@ title: Planeación del proyecto.
 permalink: /producto/planeacion
 ---
 
-Para la planificación del proyecto se siguieron los 7 pasos planteados por [el banco interamericano de desarrollo](http://www.pm4rglobal.org/). El desarrollo detallado de cada uno de los pasos se puede ver en [esta hoja de cálculo](https://github.com/dramirezch-UN/apm/blob/main/producto/planeacion/7_pasos.xlsx).
+Para la planificación del proyecto se siguieron los 7 pasos planteados por [el banco interamericano de desarrollo](http://www.pm4rglobal.org/). El desarrollo detallado de cada uno de los pasos se puede ver en [esta hoja de cálculo]([https://github.com/dramirezch-UN/apm/blob/main/producto/planeacion/7_pasos.xlsx](https://docs.google.com/spreadsheets/d/1SoueK1fEjjfASeaMFqSDHN9r_Zm6z7x5hB92wJj3EFk/edit?usp=sharing).
 
 ## Alcance
 
